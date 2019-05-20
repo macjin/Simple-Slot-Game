@@ -4,7 +4,7 @@ Simple Client + Server Side Slot Game
 Steps:
 1. Create/Select location to store the project
 2. Change directory in terminal to the project folder
-3. Run in terminal:\  a) git clone https://github.com/macjin/Simple-Slot-Game.git
+3. Run in terminal: &nbsp;  a) git clone https://github.com/macjin/Simple-Slot-Game.git
   b) npm install
   c) npm run start
   
