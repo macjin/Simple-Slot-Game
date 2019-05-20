@@ -1,0 +1,93 @@
+body{
+    background: transparent;
+}
+#canvas{
+    display: inline-block;
+    margin: auto;
+    height: 80vh;
+    width: 51vw;
+}
+#container {
+    top: 4vh;
+    background-color: Transparent;
+    /* outline shadow */
+    -webkit-box-shadow: 0px 2px 212px 194px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 2px 212px 194px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 212px 194px rgba(0, 0, 0, 0.12);
+}
+h1,p  {
+    padding: 0px;
+    margin: 0px;
+    min-height: 50px;
+    
+}
+#outcomeText,
+#bonusText { 
+    color: #555252;
+    text-align: center;
+    -webkit-box-shadow: inset 3px -17px 130px 130px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: inset 3px -17px 130px 130px rgba(0, 0, 0, 0.13);
+    box-shadow: inset 3px -17px 130px 130px rgba(0, 0, 0, 0.13);
+}
+
+#gameArea {
+    display: block;
+    margin: auto; 
+    padding: 2vh;  
+    min-height: 156px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 1px solid lightgray;
+    /* inline shadow */
+    -webkit-box-shadow: inset 3px -17px 130px 130px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: inset 3px -17px 130px 130px rgba(0, 0, 0, 0.13);
+    box-shadow: inset 3px -17px 130px 130px rgba(0, 0, 0, 0.13);
+}
+#centerDiv{
+    position: absolute;
+    left: 50%;
+}
+
+.playBtn {
+    position: relative;
+    background-color: Transparent;
+    background-image: url('../images/button.png');
+    background-repeat: no-repeat;
+    width: 98px;
+    height: 98px;
+    border-style: none;
+    left: -50%;
+    top: 4vh;
+}
+
+.playBtn[data-loading] {
+    filter: blur(5px);
+} 
+.playBtn[data-loading]:focus,
+.playBtn[data-loading]:active {
+    outline: none;
+}
+.playBtn:disabled,
+.playBtn[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+button,
+button:disabled, 
+button[data-loading]:active {
+    all: unset;
+}
+
+button:disabled {
+    pointer-events: none;
+}
+#symbolImages {
+    margin-left: auto;
+    margin-right: auto; 
+    height: 155px;
+    width: 135px;
+}
