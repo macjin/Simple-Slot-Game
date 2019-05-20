@@ -7,6 +7,7 @@ Steps:
 - Run in terminal:
   -  git clone https://github.com/macjin/Simple-Slot-Game.git
   -  npm install
+  -  cd Simple-Slot-Game
   -  npm run start
   
 - Open browser and enter url: http://127.0.0.1:1337/
