@@ -5,7 +5,7 @@ Steps:
 1. Create/Select location to store the project
 2. Change directory in terminal to the project folder
 3. Run in terminal:
-  * git clone https://github.com/macjin/Simple-Slot-Game.git
+  - git clone https://github.com/macjin/Simple-Slot-Game.git
   * npm install
   * npm run start
   
