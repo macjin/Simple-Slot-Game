@@ -19,7 +19,6 @@ class GameLogic {
         for (var i = 0; i < gameSlots; i++) {
             randomNumbers.push(this.getRandomNumber(min, max));
         }
-        console.log('Winnings', randomNumbers)
         return randomNumbers;
     }
 
@@ -27,7 +26,7 @@ class GameLogic {
     getGameResult() {
         return this.getOutcomeNumbers(minVal, maxVal, gameSlots);
     }
-    
+
     // Return the 
     getScore(outcome) {
         let score = 0;
@@ -48,14 +47,15 @@ class GameLogic {
     startGame() {
         const gameResult = this.getGameResult();
         const bonus = this.getBonus();
-        const outcome = this.getScore(gameResult); 
+        const outcome = this.getScore(gameResult);
+        console.log(` Game Result: ${gameResult} \n Bonus: ${bonus} \n Outcome: ${outcome} `)
         return {
             gameResult,
             bonus,
             outcome,
         };
-    }
-
+    } 
+    
 }
 
 module.exports = GameLogic;
