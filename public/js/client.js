@@ -1,7 +1,3 @@
-const testerer = (age) => {
-    return `Age: ${age}`
-}
-
 // Returns document.querySelector with given parameter
 const getQS = (selector) => {
     return document.querySelector(`${selector}`);
