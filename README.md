@@ -11,6 +11,7 @@ Steps:
   b) npm install
   <br/>
   c) npm run start
+  <br/>
   
 4. Open browser and enter url: http://127.0.0.1:1337/
 5. Play game!
