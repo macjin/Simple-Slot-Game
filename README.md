@@ -13,4 +13,4 @@ Steps:
 - Play game!
 
 Screenshot: 
-<blockquote class="imgur-embed-pub" lang="en" data-id="IqKaF9Z"><a href="//imgur.com/IqKaF9Z">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="https://i.imgur.com/IqKaF9Z.png" width="100%" />
