@@ -11,4 +11,6 @@ Steps:
   
 - Open browser and enter url: http://127.0.0.1:1337/
 - Play game!
-<img src="https://i.imgur.com/YG2jvQr.png" width="100%" />
+
+Screenshot:
+<img src="https://i.imgur.com/a/mJ9pJdC.png" width="100%" />
